@@ -24,3 +24,5 @@ phpunit.xml
 phpunit.xml.dist
 tests
 vendor
+deploy.sh
+test.php

@@ -15,3 +15,4 @@ env:
     - SVN_REPO: https://plugins.svn.wordpress.org/aperture/
     - GH_REF: https://github.com/aaronpk/aperture-wordpress.git
     - secure: "qzCqyzStR+E5Me4/PU5yttxYahrvfeE7Bn3NCkmVMrKxSIsq4G1GDb2MYdh5mkwYoL3JsTCHCJl6ffxnKlue0ATVJIZKurz41cwaKDrsWmGb6ucBl9f2pO2Kx7a+ktPt22dRpZAAfaUm32EiOjvEVYyuAl7WAEX5F+bXK8zGRPTRnRLVaDk6QpSzEcsZ+vQ1KuVDAJPkBOnzYV9q4sZnGsbz1QZ0SiThfObbcIxfq+rkRD2GjWaZo7rUsKYfLmhvjPMs1uzTWaVfAEX6Sy2XbACD4kiXd5SJ9QpwI5Vf3LFOV8/a23PyCc8kJSzQstopQOOzf3H3E29oEqk6BLF0lL9f8Ke7NncBxBv14V/VjsgjkLW7Vp1RcxInIU0d+E4/j9btU7qjDtK/SCJdmd8ZQjHcyiA4VmTym5Em2fq9DAD8e+0wlVHuaBXN4vGbHbj/nTB4a0+0Y4pMlbaRQHDSWtx9emZsOBvtoNBUCGOFtT1+fiH9vLFsa8kGgBjQN+WhF7uvkaRQYF4i7GkIXzl6r2sAS4MBkkZ4uMAeRhDSrfVfOzgRjBeuqlRtvsRCvF12AHHn5kpoiPnk6ycTs0zAWGQ+0RjKArTzjUYUovsMfuV/53kJj7Kbw2Ko96Gi3agImvb6F9Ems2h4pw43WXhJ+/QRSxMFiZ/oPtvWhTKowe8="
+script: php test.php
