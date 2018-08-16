@@ -69,7 +69,7 @@ class Aperture_Plugin {
       'body'     => array(
         'verification_endpoint' => $verification_endpoint,
         'code'   => $code,
-        'site'   => site_url( '/' ), // this needs to be the same URL that the IndieAuth plugin returns as the identity
+        'site'   => home_url( '/' ), // this needs to be the same URL that the IndieAuth plugin returns as the identity
         'via'    => 'aperture-wordpress/' . $version,
       ),
     );
