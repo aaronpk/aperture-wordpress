@@ -3,7 +3,7 @@
  * Plugin Name: Aperture
  * Plugin URI: https://github.com/aaronpk/aperture-wordpress
  * Description: This plugin adds a Microsub endpoint to your WordPress site by using the hosted Aperture service.
- * Version: 0.1.0
+ * Version: 1.0.2
  * Author: Aaron Parecki
  * Author URI: https://aaronparecki.com
  * License: MIT
