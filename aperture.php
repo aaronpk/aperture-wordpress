@@ -17,6 +17,7 @@ class Aperture_Plugin {
   public function __construct() {
     #add_action( 'register_activation_hook', array( $this, 'register_activation_hook' ) );
     register_activation_hook( __FILE__, array( $this, 'activated' ) );
+    add_action( 'send_headers', array( $this, 'http_header' ) );
     add_action( 'wp_head', array( $this, 'html_header' ) );
     add_action( 'rest_api_init', array( $this, 'register_routes' ) );
 
@@ -127,6 +128,12 @@ class Aperture_Plugin {
     </div>
     <?php
     delete_option( 'aperture_registration_success' );
+  }
+
+  public function http_header() {
+    if( $url = get_option('aperture_microsub_url') ) {
+      header( 'Link: <' . $url . '>; rel="microsub"', false );
+    }
   }
 
   public function html_header() {
